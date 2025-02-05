@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Border around the entire login form */
+.login-wrapper {
+    padding: 20px;
+    border: 3px solid #007bff; /* Blue border */
+    border-radius: 10px; /* Rounded edges */
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    text-align: center;
+}
+
+/* The form container inside */
+.form-container {
+    width: 300px;
+    padding: 20px;
+}
+
+/* Input Fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #472dbb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #4565a0;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .login-wrapper {
+        width: 90%;
+    }
+}
+p{
+    margin-top: 15px;
+}
